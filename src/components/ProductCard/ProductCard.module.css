@@ -1,0 +1,65 @@
+.image {
+    aspect-ratio: 16/ 9;
+    width: 100%;
+    display: grid;
+    grid: 1fr /1fr;
+    position: relative;
+}
+
+.image > * {
+    grid-column:  1 / 1;
+    grid-row:  1 / 1;
+}
+
+.image  img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img__hover {
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.img__hover:hover {
+    opacity: 1;
+}
+
+.badge {
+    position: absolute;
+    right: 0;
+    top: 1.2rem;
+    padding: .25rem .8rem;
+    font-size: .85rem;
+    color: hsl(var(--neutral-900));
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    letter-spacing: .025rem;
+    background: hsl(var(--primary-300));
+    z-index: 1;
+}
+
+.footer {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+    line-height: 1.2;
+    margin-bottom: .25rem;
+}
+
+.description {
+    font-size: .9rem;
+}
+
+.price {
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+

@@ -1,0 +1,58 @@
+
+
+.banner {
+    position: relative;
+    min-height: 30rem;
+    display: grid;
+    grid:  1fr / 1fr;
+    max-height: 40rem;
+}
+
+.banner > * {
+   grid-column:  1 / 1;
+   grid-row:  1 / 1;
+}
+
+.background {
+    max-height: 40rem;
+    position: relative;
+}
+
+.background::after {
+    content:  '';
+    display: block;
+    width: 100%;
+    background-color: hsl( 0  0% 0%  /.5);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    z-index: 1;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 0  var(--space-content);
+    margin-block:  2rem;
+    gap: 5rem;
+    position: relative;
+}
+
+.content > div { 
+    margin-block:  2rem;
+}
+
+.action {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color: hsl(var(--neutral-000));
+}
+
+.action > * {
+    height: 3.5rem;
+    width: 3.5rem;
+}

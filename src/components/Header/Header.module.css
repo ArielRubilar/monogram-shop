@@ -1,0 +1,31 @@
+
+
+.header {
+    --_bg: hsl(var(--neutral-500));
+    --_color: hsl(var(--primary-200));
+    --_padding-outline: .5rem;
+    --_padding-inner: .5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header {
+    color: var(--_color);
+    padding: var(--_padding-outline);
+}
+
+.content {
+    background: var(--_bg);
+    padding: var(--_padding-inner);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.content  * {
+    color: var(--_color);
+}
