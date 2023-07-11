@@ -1,6 +1,6 @@
 .section {
     --_max-width-card: 20rem;
-    padding: var(--space-content);
+    padding: calc(var(--space-content) * 2)  var(--space-content) ;
     grid-template-columns: repeat( auto-fill , minmax( min(100% , var( --_max-width-card)) , 1fr));
     display: grid;
     gap: 1.5rem;
