@@ -1,0 +1,4 @@
+.footer {
+    min-height: 20rem;
+    background: hsl(var(--neutral-500));
+}

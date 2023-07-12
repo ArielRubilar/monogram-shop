@@ -13,6 +13,9 @@
 
 .content {
     z-index: 1;
+    max-width: var(--mw-content);
+    padding-inline: var(--space-content);
+    margin-inline: auto;
 }
 
 

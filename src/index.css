@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
-
 :root {
  --neutral-000: 40, 9%, 94%;
  --neutral-900: 231, 54%, 7%;
@@ -10,7 +9,6 @@
  --primary-500: 14, 100%, 55%;
 }
 
-
 :root {
   --ff-base: 'Space Mono', monospace;
   --fs-base: 18px;
@@ -19,6 +17,7 @@
 }
 
 :root {
+  --mw-content: 1000px;
   --space-content: 1.2rem;
 }
 
@@ -47,7 +46,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .icon-button {
   background: transparent;
   border: none;
@@ -55,7 +53,7 @@ html {
   padding: .25rem .75rem;
   cursor: pointer;
   display: inline-flex;
-    justify-content: center;
+  justify-content: center;
 }
 
 .unstyle-link {
@@ -71,7 +69,7 @@ html {
 	border: 0 !important;
 	clip: rect(1px, 1px, 1px, 1px) !important; 
 	-webkit-clip-path: inset(50%) !important;
-		clip-path: inset(50%) !important;  
+	clip-path: inset(50%) !important;  
 	height: 1px !important;
 	margin: -1px !important;
 	overflow: hidden !important;

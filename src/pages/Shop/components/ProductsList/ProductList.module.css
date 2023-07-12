@@ -4,6 +4,6 @@
     grid-template-columns: repeat( auto-fill , minmax( min(100% , var( --_max-width-card)) , 1fr));
     display: grid;
     gap: 1.5rem;
-    max-width: 1200px;
+    max-width: var(--mw-content);
     margin-inline: auto;
 }

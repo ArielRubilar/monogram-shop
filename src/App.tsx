@@ -1,3 +1,4 @@
+import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Shop } from './pages/Shop'
 
@@ -6,9 +7,9 @@ function App () {
     <>
       <Header/>
 
-      <div>
-        <Shop />
-      </div>
+      <Shop />
+
+      <Footer/>
     </>
   )
 }

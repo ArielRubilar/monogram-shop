@@ -1,14 +1,13 @@
 .content {
     text-align: center;
-    padding: 0  var(--space-content);
     margin-block:  2rem;
-    gap: 5rem;
     position: relative;
 }
 
 .background {
+    --_background-color: inherit;
     max-height: 30rem;
-    background: #C4C4C4;
+    background: var(--_background-color);
     height: 100%;
     display: block;
     min-height: 22rem;

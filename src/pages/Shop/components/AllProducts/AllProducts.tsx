@@ -90,6 +90,6 @@ export const AllProducts = () => {
     }
   ]
   return (
-        <ProductList id='#news' items={products} title='New Releases' />
+    <ProductList id='#news' items={products} title='New Releases' />
   )
 }
